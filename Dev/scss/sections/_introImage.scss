@@ -1,43 +1,43 @@
-
 /* =============
     introImage
 ============= */
 
-#introImage{
+#introImage {
     image: url("..IMG/introImage.jpg");
-    background-size: cover;
-    background-position: center;
+    size: cover;
+    position: center;
     height: 60vh;
-    
-    @include md{
+
+    @include md {
         height: 70vh;
     }
 
-    @include lg{
+    @include lg {
         height: 80vh;
     }
 
-   div{
-    //    height: 50vh;
-    //    border: 6px solid red;
-    h1{
-        font-weight: 300;
-        font-size: rem-calc(44);
-        color: $black;
-        text-align: center;
-        // padding-top: 20%;
+    div {
 
-        @include md{
-            // padding-top: 30%;
-            font-size: rem-calc(60);
-        }
+        //    height: 50vh;
+        //    border: 6px solid red;
+        h1 {
+            font-weight: 300;
+            font-size: rem-calc(44);
+            color: $black;
+            text-align: center;
+            // padding-top: 20%;
 
-        @include lg{
-            padding-top: 10%;
-            padding-left: 10%;
-            text-align: left;
-            font-size: rem-calc(80);
+            @include md {
+                // padding-top: 30%;
+                font-size: rem-calc(60);
+            }
+
+            @include lg {
+                padding-top: 10%;
+                padding-left: 10%;
+                text-align: left;
+                font-size: rem-calc(80);
+            }
         }
     }
-   }
-}           
+}
