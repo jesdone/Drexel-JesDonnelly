@@ -9,12 +9,25 @@
   ],
   "creatorBuild" : "34324",
   "files" : {
-    "\/assets\/IMG_2751.jpeg" : {
+    "\/Deploy\/assets\/DreamerImage.jpg" : {
+      "ft" : 16384,
+      "iS" : 963504,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/assets\/DreamerImage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Deploy\/assets\/DreamerPackIntroImage.jpeg" : {
       "ft" : 16384,
       "iS" : 168453,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/IMG_2751.jpg",
+      "oAP" : "\/Deploy\/assets\/DreamerPackIntroImage.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -22,25 +35,38 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/assets\/IMG_2752.jpeg" : {
-      "ft" : 16384,
-      "iS" : 401254,
-      "jF" : 0,
-      "oA" : 0,
-      "oAP" : "\/assets\/IMG_2752.jpg",
-      "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
-      "ou" : "lpckwebp-none",
-      "q" : 100,
-      "rq" : 75
-    },
-    "\/assets\/introImage.jpg" : {
+    "\/Deploy\/assets\/introImage.jpg" : {
       "ft" : 16384,
       "iS" : 499348,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/assets\/introImage.jpg",
+      "oAP" : "\/Deploy\/assets\/introImage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Deploy\/assets\/RealistImage.jpeg" : {
+      "ft" : 16384,
+      "iS" : 401254,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/assets\/RealistImage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Deploy\/assets\/RealistPackIntroImage.jpeg" : {
+      "ft" : 16384,
+      "iS" : 125299,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/assets\/RealistPackIntroImage.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,
@@ -60,6 +86,32 @@
       "oF" : 0,
       "pg" : 0
     },
+    "\/Deploy\/IMG\/DreamerImage.jpg" : {
+      "ft" : 16384,
+      "iS" : 963504,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/IMG\/DreamerImage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Deploy\/IMG\/DreamerPackIntroImage.jpeg" : {
+      "ft" : 16384,
+      "iS" : 168453,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/IMG\/DreamerPackIntroImage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/Deploy\/IMG\/introImage.jpg" : {
       "ft" : 16384,
       "iS" : 499348,
@@ -69,6 +121,32 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Deploy\/IMG\/RealistImage.jpeg" : {
+      "ft" : 16384,
+      "iS" : 401254,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/IMG\/RealistImage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Deploy\/IMG\/RealistPackIntroImage.jpeg" : {
+      "ft" : 16384,
+      "iS" : 125299,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/IMG\/RealistPackIntroImage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -89,6 +167,14 @@
       "oAP" : "\/Dev\/content\/IntroImage.html",
       "oF" : 0
     },
+    "\/Dev\/global\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/Dev\/global\/footer.html",
+      "oF" : 0
+    },
     "\/Dev\/global\/head.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -97,13 +183,21 @@
       "oAP" : "\/Dev\/global\/head.html",
       "oF" : 0
     },
+    "\/Dev\/global\/header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/Dev\/global\/header.html",
+      "oF" : 0
+    },
     "\/Dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/Deploy\/index.html",
-      "oF" : 2
+      "oF" : 3
     },
     "\/Dev\/scss\/base\/_base.scss" : {
       "aP" : 0,
@@ -255,65 +349,69 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/Dev\/scss\/sections\/_believe.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/Dev\/scss\/sections\/_believe.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+    "\/Dev\/scss\/sections\/AddOns.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Dev\/scss\/sections\/AddOns.html",
+      "oF" : 0
     },
-    "\/Dev\/scss\/sections\/_callout.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/Dev\/scss\/sections\/_callout.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+    "\/Dev\/scss\/sections\/DreamerDescript.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Dev\/scss\/sections\/DreamerDescript.html",
+      "oF" : 0
     },
-    "\/Dev\/scss\/sections\/_gallery.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/Dev\/scss\/sections\/_gallery.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+    "\/Dev\/scss\/sections\/Footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Dev\/scss\/sections\/Footer.html",
+      "oF" : 0
     },
-    "\/Dev\/scss\/sections\/_introImage.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "co" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/Dev\/scss\/sections\/_introImage.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+    "\/Dev\/scss\/sections\/Header.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Dev\/scss\/sections\/Header.html",
+      "oF" : 0
+    },
+    "\/Dev\/scss\/sections\/IntroImage.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Dev\/scss\/sections\/IntroImage.html",
+      "oF" : 0
+    },
+    "\/Dev\/scss\/sections\/IntroText.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Dev\/scss\/sections\/IntroText.html",
+      "oF" : 0
+    },
+    "\/Dev\/scss\/sections\/PackageIntroImages.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Dev\/scss\/sections\/PackageIntroImages.html",
+      "oF" : 0
+    },
+    "\/Dev\/scss\/sections\/RealistDescript.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Dev\/scss\/sections\/RealistDescript.html",
+      "oF" : 0
     },
     "\/Dev\/scss\/styles.scss" : {
       "aP" : 0,
