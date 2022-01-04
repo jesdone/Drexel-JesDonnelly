@@ -488,8 +488,8 @@ footer > div aside ul li a:visited {
   }
 }
 
-#IntroImage div section Image {
-  size: 60vh;
+#IntroImage div section img {
+  size: 20vh;
 }
 
 #PackageIntroImages div {
