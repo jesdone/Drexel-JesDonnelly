@@ -2,11 +2,9 @@
     div {
         display: grid;
         gap: 16px;
-        text-align: center;
 
         Section {
             h1 {
-                position: static;
                 width: 288px;
                 height: 29px;
                 left: 0px;
@@ -28,7 +26,6 @@
         aside {
             ul {
                 li {
-                    position: static;
                     width: 288px;
                     height: 329px;
                     left: 0px;
