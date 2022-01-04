@@ -1,3 +1,8 @@
+@import url(url("..IMG/introImage.jpg"));
+@import url(url("..IMG/DreamerImage.jpg"));
+@import url(url("..IMG/DreamerPackIntroImage.jpeg"));
+@import url(url("..IMG/RealistImage.jpeg"));
+@import url(url("..IMG/RealistPackIntroImage.jpeg"));
 /* =============
     Mixins
 ============= */
@@ -365,33 +370,21 @@ ul li {
   list-style: none;
 }
 
-.content {
-  padding: 32px 0;
-}
-@media (min-width: 768px) {
-  .content {
-    padding: 48px 0;
-  }
-}
-@media (min-width: 1024px) {
-  .content {
-    padding: 56px 0;
-  }
-}
-@media (min-width: 1440px) {
-  .content {
-    padding: 64px 0;
-  }
-}
-
 /* =============
     Typography
 ============= */
-body {
-  font-family: "Open Sans", sans-serif;
+h1 {
+  font-family: "Lato", sans-serif;
 }
 
-h1, h2, h3, h4 {
+body {
+  font-family: "Catamaran", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
   margin: 0;
   padding: 0;
 }
@@ -476,245 +469,179 @@ footer > div aside ul li a:visited {
   }
 }
 
-/* =============
-    Hero
-============= */
-#hero {
-  background-image: url("../img/hero.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
-}
-@media (min-width: 768px) {
-  #hero {
-    height: 70vh;
-  }
-}
-@media (min-width: 1024px) {
-  #hero {
-    height: 80vh;
-  }
-}
-#hero div h1 {
-  font-weight: 300;
-  font-size: 2.75rem;
-  color: #fff;
+#IntroText {
   text-align: center;
 }
-@media (min-width: 768px) {
-  #hero div h1 {
-    font-size: 3.75rem;
-  }
+#IntroText h1 {
+  font-weight: 800;
+  font-size: 1.375rem;
+  color: #000;
+  padding-top: 20%;
 }
-@media (min-width: 1024px) {
-  #hero div h1 {
-    padding-top: 10%;
-    padding-left: 10%;
-    text-align: left;
-    font-size: 5rem;
-  }
+#IntroText body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+  position: absolute;
+  width: 347px;
+  height: 376px;
+  left: 46px;
+  top: 499px;
 }
 
-@media (min-width: 1440px) {
-  #believe {
-    display: grid;
-    grid-template-columns: auto 1440px auto;
-    grid-template-areas: ". believe .";
-  }
+#RealistDescript Image {
+  position: absolute;
+  width: 144px;
+  height: 120px;
+  left: 0px;
+  top: 0px;
 }
-#believe > div {
-  display: grid;
-  gap: 24px;
-}
-@media (min-width: 768px) {
-  #believe > div {
-    grid-template-columns: 38vw auto;
-    grid-template-areas: "believe-l believe-r";
-  }
-}
-@media (min-width: 1024px) {
-  #believe > div {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (min-width: 1440px) {
-  #believe > div {
-    grid-area: believe;
-  }
-}
-#believe > div section {
-  margin: 0 16px;
-}
-@media (min-width: 768px) {
-  #believe > div section {
-    grid-area: believe-r;
-    display: flex;
-    align-items: center;
-  }
-}
-#believe > div section > div {
-  border-top: 3px solid #D87337;
-  border-bottom: 3px solid #D87337;
-  padding: 16px 0px;
-}
-#believe > div section > div h1 {
-  font-family: "Nunito", sans-serif;
-  font-size: 1.5625rem;
-  line-height: 1.75rem;
-  padding-bottom: 16px;
+#RealistDescript h1 {
+  position: absolute;
+  width: 103px;
+  height: 22px;
+  left: 160px;
+  top: 60px;
+  font-family: Lato;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
   text-align: center;
+  color: #000000;
 }
-@media (min-width: 768px) {
-  #believe > div section > div h1 {
-    font-size: 2.1875rem;
-    line-height: 2.1875rem;
-    text-align: left;
-  }
+#RealistDescript body {
+  position: static;
+  width: 275px;
+  height: 189px;
+  left: 0px;
+  top: 136.79px;
+  font-family: Catamaran;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
 }
-@media (min-width: 1440px) {
-  #believe > div section > div h1 {
-    font-size: 2.5rem;
-  }
+#RealistDescript h1 {
+  position: static;
+  width: 262px;
+  height: 44px;
+  left: 0px;
+  top: 335.79px;
+  font-family: Lato;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
 }
-@media (min-width: 768px) {
-  #believe > div section > div p {
-    font-size: 1.125rem;
-  }
-}
-#believe > div aside {
-  background-image: url("../img/believe/hero.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-}
-@media (min-width: 768px) {
-  #believe > div aside {
-    grid-area: believe-l;
-    height: 50vh;
-  }
-}
-@media (min-width: 1024px) {
-  #believe > div aside {
-    height: 80vh;
-  }
-}
-
-@media (min-width: 768px) {
-  #gallery {
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". gallery .";
-  }
-}
-@media (min-width: 1440px) {
-  #gallery {
-    grid-template-columns: auto 1440px auto;
-  }
-}
-@media (min-width: 768px) {
-  #gallery > div {
-    grid-area: gallery;
-  }
-}
-#gallery > div ul {
-  display: grid;
-  gap: 24px;
-  grid-template-rows: repeat(3, 70vh);
-}
-@media (min-width: 768px) {
-  #gallery > div ul {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 70vh 35vh;
-    grid-template-areas: "g1 g1" "g2 g3";
-  }
-}
-@media (min-width: 1440px) {
-  #gallery > div ul {
-    grid-template-columns: 60% auto;
-    grid-template-rows: 35vh 35vh;
-    grid-template-areas: "g1 g2" "g1 g3";
-  }
-}
-#gallery > div ul li {
-  background-size: cover;
-  background-position: center;
-}
-#gallery > div ul #gallery-1 {
-  background-image: url("../img/gallery/gallery-1.jpg");
-}
-@media (min-width: 768px) {
-  #gallery > div ul #gallery-1 {
-    background-position: bottom;
-    grid-area: g1;
-  }
-}
-#gallery > div ul #gallery-2 {
-  background-image: url("../img/gallery/gallery-2.jpg");
-}
-@media (min-width: 768px) {
-  #gallery > div ul #gallery-2 {
-    grid-area: g2;
-  }
-}
-#gallery > div ul #gallery-3 {
-  background-image: url("../img/gallery/gallery-3.jpg");
-}
-@media (min-width: 768px) {
-  #gallery > div ul #gallery-3 {
-    grid-area: g3;
-  }
+#RealistDescript ul li {
+  position: static;
+  width: 241px;
+  height: 455px;
+  left: 0px;
+  top: 389.79px;
+  font-family: Catamaran;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
 }
 
-#callout {
-  display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". callout .";
+#DreamerDescript Image {
+  position: absolute;
+  width: 117px;
+  height: 89px;
+  left: 3px;
+  top: 0px;
 }
-@media (min-width: 1440px) {
-  #callout {
-    grid-template-columns: auto 1440px auto;
-  }
+#DreamerDescript h1 {
+  position: absolute;
+  width: 119px;
+  height: 22px;
+  left: 143px;
+  top: 33.81px;
+  font-family: Lato;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
 }
-#callout > div {
-  grid-area: callout;
+#DreamerDescript body {
+  position: absolute;
+  width: 263px;
+  height: 230px;
+  left: 10.48px;
+  top: 121px;
+  font-family: Catamaran;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
 }
-#callout > div #circle-img {
-  background-image: url("../img/callout/hero.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 90vw;
-  height: 90vw;
-  border-radius: 100%;
-  margin: 0 auto;
+#DreamerDescript h1 {
+  position: static;
+  width: 287px;
+  height: 44px;
+  left: 0px;
+  top: 361px;
+  font-family: Lato;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
 }
-@media (min-width: 768px) {
-  #callout > div #circle-img {
-    width: 50vw;
-    height: 50vw;
-    background-position: 0px 0px;
-  }
+#DreamerDescript ul li {
+  position: static;
+  width: 287px;
+  height: 439px;
+  left: 0px;
+  top: 415px;
+  font-family: Catamaran;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
 }
-@media (min-width: 768px) {
-  #callout > div #circle-img {
-    width: 40vw;
-    height: 40vw;
-  }
+
+#AddOns h1 {
+  position: static;
+  width: 288px;
+  height: 29px;
+  left: 0px;
+  top: 0px;
+  font-family: Lato;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
 }
-@media (min-width: 1440px) {
-  #callout > div #circle-img {
-    width: 10vw;
-    height: 10vw;
-  }
-}
-#callout > div p {
-  line-height: 1.875rem;
-  font-size: 1.125rem;
-  margin-top: 16px;
-  text-align: justify;
-  padding: 0 15%;
-}
-@media (min-width: 1440px) {
-  #callout > div p {
-    padding: 0 25%;
-  }
+#AddOns ul li {
+  position: static;
+  width: 288px;
+  height: 329px;
+  left: 0px;
+  top: 37px;
+  font-family: Catamaran;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #000000;
 }

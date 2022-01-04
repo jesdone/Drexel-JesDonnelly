@@ -1,0 +1,24 @@
+#IntroText {
+    text-align: center;
+
+    h1 {
+        font-weight: 800;
+        font-size: rem-calc(22);
+        color: $black;
+        padding-top: 20%;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 35px;
+
+        position: absolute;
+        width: 347px;
+        height: 376px;
+        left: 46px;
+        top: 499px;
+    }
+}

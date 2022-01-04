@@ -1,0 +1,30 @@
+#PackageIntroImages {
+    text-align: center;
+
+    Image {
+        position: absolute;
+        width: 171px;
+        height: 112px;
+        left: 128px;
+        top: 926px;
+    }
+
+    h1 {
+        position: absolute;
+        width: 185px;
+        height: 22px;
+        left: calc(50% - 185px/2 - 1.5px);
+        top: calc(50% - 22px/2 - 1134px);
+
+        font-family: Lato;
+        font-style: italic;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+
+        text-align: center;
+
+        color: #000000;
+    }
+}
