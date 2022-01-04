@@ -13,31 +13,32 @@
             }
             Image {
                 
-
             }
-            @include md{
-            grid-area: dream-r;
-            }
+            aside {
+                @include md{
+                    grid-area: dream-r;
+                    }
             h1 {
        
-
-            }
-        }
-
-        aside {
-            p {
-          
-
             }
         }
     }
-    div{
+}
+        div{
+    section{
+            p {
+                
+            }
+        }
+    }
+   div{
         section {
 
             h1 {
       
             }
-
+        }
+        aside{
             ul {
                 li {
         

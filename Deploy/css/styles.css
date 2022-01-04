@@ -370,6 +370,25 @@ ul li {
   list-style: none;
 }
 
+.content {
+  padding: 32px 0;
+}
+@media (min-width: 768px) {
+  .content {
+    padding: 48px 0;
+  }
+}
+@media (min-width: 1024px) {
+  .content {
+    padding: 56px 0;
+  }
+}
+@media (min-width: 1440px) {
+  .content {
+    padding: 64px 0;
+  }
+}
+
 /* =============
     Typography
 ============= */
@@ -475,48 +494,8 @@ footer > div aside ul li a:visited {
 
 #PackageIntroImages div {
   display: grid;
-  gap: 20px;
+  gap: 50px;
 }
-#PackageIntroImages div section h1 {
-  width: 185px;
-  height: 22px;
-  left: calc(50% - 92.5px - 1.5px);
-  top: calc(50% - 11px - 1134px);
-  font-family: Lato;
-  font-style: italic;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
-  text-align: center;
-  color: #000000;
-}
-#PackageIntroImages div aside Image {
-  width: 171px;
-  height: 112px;
-  left: 128px;
-  top: 926px;
-}
-#PackageIntroImages div section h2 {
-  width: 228px;
-  height: 23px;
-  left: calc(50% - 114px);
-  top: calc(50% - 11.5px - 923.5px);
-  font-family: Lato;
-  font-style: italic;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  color: #000000;
-}
-#PackageIntroImages div aside Image {
-  width: 172px;
-  height: 119px;
-  left: 131px;
-  top: 1130px;
-}
-
 #IntroText div {
   display: grid;
   gap: 50px;
@@ -539,162 +518,47 @@ footer > div aside ul li a:visited {
   top: 499px;
 }
 
-#RealistDescript div {
+#RealistDescript > div {
   display: grid;
   gap: 16px;
 }
-#RealistDescript div section Image {
-  position: absolute;
-  width: 144px;
-  height: 120px;
-  left: 0px;
-  top: 0px;
+@media (min-width: 768px) {
+  #RealistDescript > div {
+    grid-template-columns: 50vw auto;
+    grid-template-areas: "realist-l realist-r";
+  }
 }
-#RealistDescript div section h1 {
-  position: absolute;
-  width: 103px;
-  height: 22px;
-  left: 160px;
-  top: 60px;
-  font-family: Lato;
-  font-style: italic;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
-  text-align: center;
-  color: #000000;
+@media (min-width: 768px) {
+  #RealistDescript > div section {
+    grid-area: realist-l;
+  }
 }
-#RealistDescript div aside p {
-  position: static;
-  width: 275px;
-  height: 189px;
-  left: 0px;
-  top: 136.79px;
-  font-family: Catamaran;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 23px;
-  color: #000000;
+@media (min-width: 768px) {
+  #RealistDescript > div section aside {
+    grid-area: realist-r;
+  }
 }
-#RealistDescript div ::section h1 {
-  position: static;
-  width: 262px;
-  height: 44px;
-  left: 0px;
-  top: 335.79px;
-  font-family: Lato;
-  font-style: italic;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  color: #000000;
-}
-#RealistDescript div ::section ul li {
-  position: static;
-  width: 241px;
-  height: 455px;
-  left: 0px;
-  top: 389.79px;
-  font-family: Catamaran;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 23px;
-  color: #000000;
-}
-
-#DreamerDescript div {
+#DreamerDescript > div {
   display: grid;
   gap: 16px;
 }
-#DreamerDescript div section Image {
-  width: 117px;
-  height: 89px;
-  left: 3px;
-  top: 0px;
+@media (min-width: 768px) {
+  #DreamerDescript > div {
+    grid-template-columns: 50vw auto;
+    grid-template-areas: "dream-l dream-r";
+  }
 }
-#DreamerDescript div section h1 {
-  width: 119px;
-  height: 22px;
-  left: 143px;
-  top: 33.81px;
-  font-family: Lato;
-  font-style: italic;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height */
-  text-align: center;
-  color: #000000;
+@media (min-width: 768px) {
+  #DreamerDescript > div section {
+    grid-area: dream-l;
+  }
 }
-#DreamerDescript div aside p {
-  width: 263px;
-  height: 230px;
-  left: 10.48px;
-  top: 121px;
-  font-family: Catamaran;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 23px;
-  color: #000000;
+@media (min-width: 768px) {
+  #DreamerDescript > div section aside {
+    grid-area: dream-r;
+  }
 }
-#DreamerDescript div section h1 {
-  width: 287px;
-  height: 44px;
-  left: 0px;
-  top: 361px;
-  font-family: Lato;
-  font-style: italic;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 22px;
-  text-align: center;
-  color: #000000;
-}
-#DreamerDescript div section ul li {
-  width: 287px;
-  height: 439px;
-  left: 0px;
-  top: 415px;
-  font-family: Catamaran;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 23px;
-  color: #000000;
-}
-
 #AddOns div {
   display: grid;
   gap: 16px;
-}
-#AddOns div Section h1 {
-  width: 288px;
-  height: 29px;
-  left: 0px;
-  top: 0px;
-  font-family: Lato;
-  font-style: italic;
-  font-weight: 800;
-  font-size: 24px;
-  line-height: 29px;
-  /* identical to box height */
-  text-align: center;
-  color: #000000;
-}
-#AddOns div aside ul li {
-  width: 288px;
-  height: 329px;
-  left: 0px;
-  top: 37px;
-  font-family: Catamaran;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 23px;
-  color: #000000;
 }

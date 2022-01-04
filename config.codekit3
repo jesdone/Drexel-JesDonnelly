@@ -199,14 +199,6 @@
       "oAP" : "\/Dev\/content\/IntroImage.html",
       "oF" : 1
     },
-    "\/Dev\/content\/IntroText.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Dev\/content\/IntroText.html",
-      "oF" : 0
-    },
     "\/Dev\/content\/IntroText.kit" : {
       "cB" : 0,
       "ft" : 2048,

@@ -1,26 +1,29 @@
 #RealistDescript {
-    div {
+    >div {
         display: grid;
         gap: 16px;
         @include md{
             grid-template-columns: 50vw auto;
             grid-template-areas: "realist-l realist-r";
-
+        }
         section {
             @include md{
                 grid-area: realist-l;
+            }
             Image {
                 
             }
-            @include md{
-                grid-area: realist-r;
-            }
+            aside{
+                @include md{
+                    grid-area: realist-r;
+                }
             h1 {
                 
             }
         }
+        div{
 
-        aside {
+        section {
 
             p {
                 
@@ -29,11 +32,12 @@
     }
 
 div{
-
         section {
             h1 {
                 
             }
+        }
+            aside{
 
             ul {
                 li {
@@ -41,5 +45,7 @@ div{
                 }
             }
         }
+    }
+}
     }
 }
