@@ -469,7 +469,7 @@ footer > div aside ul li a:visited {
   }
 }
 
-#IntroImage Image {
+#IntroImage div section Image {
   position: absolute;
   width: 271px;
   height: 245px;
@@ -477,17 +477,12 @@ footer > div aside ul li a:visited {
   top: 155px;
 }
 
-#PackageIntroImages {
+#PackageIntroImages div {
   text-align: center;
+  display: grid;
+  gap: 20px;
 }
-#PackageIntroImages Image {
-  position: absolute;
-  width: 171px;
-  height: 112px;
-  left: 128px;
-  top: 926px;
-}
-#PackageIntroImages h1 {
+#PackageIntroImages div section h1 {
   position: absolute;
   width: 185px;
   height: 22px;
@@ -502,17 +497,47 @@ footer > div aside ul li a:visited {
   text-align: center;
   color: #000000;
 }
+#PackageIntroImages div aside Image {
+  position: absolute;
+  width: 171px;
+  height: 112px;
+  left: 128px;
+  top: 926px;
+}
+#PackageIntroImages div section h2 {
+  position: absolute;
+  width: 228px;
+  height: 23px;
+  left: calc(50% - 114px);
+  top: calc(50% - 11.5px - 923.5px);
+  font-family: Lato;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #000000;
+}
+#PackageIntroImages div aside Image {
+  position: absolute;
+  width: 172px;
+  height: 119px;
+  left: 131px;
+  top: 1130px;
+}
 
-#IntroText {
+#IntroText div {
+  display: grid;
+  gap: 50px;
   text-align: center;
 }
-#IntroText h1 {
+#IntroText div section h1 {
   font-weight: 800;
   font-size: 1.375rem;
   color: #000;
   padding-top: 20%;
 }
-#IntroText body {
+#IntroText div section body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -525,14 +550,19 @@ footer > div aside ul li a:visited {
   top: 499px;
 }
 
-#RealistDescript Image {
+#RealistDescript div {
+  display: grid;
+  gap: 50px;
+  text-align: center;
+}
+#RealistDescript div section Image {
   position: absolute;
   width: 144px;
   height: 120px;
   left: 0px;
   top: 0px;
 }
-#RealistDescript h1 {
+#RealistDescript div section h1 {
   position: absolute;
   width: 103px;
   height: 22px;
@@ -547,7 +577,7 @@ footer > div aside ul li a:visited {
   text-align: center;
   color: #000000;
 }
-#RealistDescript body {
+#RealistDescript div aside p {
   position: static;
   width: 275px;
   height: 189px;
@@ -560,7 +590,7 @@ footer > div aside ul li a:visited {
   line-height: 23px;
   color: #000000;
 }
-#RealistDescript h1 {
+#RealistDescript div ::selection h1 {
   position: static;
   width: 262px;
   height: 44px;
@@ -574,7 +604,7 @@ footer > div aside ul li a:visited {
   text-align: center;
   color: #000000;
 }
-#RealistDescript ul li {
+#RealistDescript div ::selection ul li {
   position: static;
   width: 241px;
   height: 455px;
@@ -588,14 +618,19 @@ footer > div aside ul li a:visited {
   color: #000000;
 }
 
-#DreamerDescript Image {
+#DreamerDescript div {
+  display: grid;
+  gap: 50px;
+  text-align: center;
+}
+#DreamerDescript div section Image {
   position: absolute;
   width: 117px;
   height: 89px;
   left: 3px;
   top: 0px;
 }
-#DreamerDescript h1 {
+#DreamerDescript div section h1 {
   position: absolute;
   width: 119px;
   height: 22px;
@@ -610,7 +645,7 @@ footer > div aside ul li a:visited {
   text-align: center;
   color: #000000;
 }
-#DreamerDescript body {
+#DreamerDescript div aside p {
   position: absolute;
   width: 263px;
   height: 230px;
@@ -623,7 +658,7 @@ footer > div aside ul li a:visited {
   line-height: 23px;
   color: #000000;
 }
-#DreamerDescript h1 {
+#DreamerDescript div section h1 {
   position: static;
   width: 287px;
   height: 44px;
@@ -637,7 +672,7 @@ footer > div aside ul li a:visited {
   text-align: center;
   color: #000000;
 }
-#DreamerDescript ul li {
+#DreamerDescript div section ul li {
   position: static;
   width: 287px;
   height: 439px;

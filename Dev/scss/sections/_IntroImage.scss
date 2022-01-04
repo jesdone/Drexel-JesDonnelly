@@ -1,4 +1,7 @@
 #IntroImage {
+div{
+
+section{
 
     Image {
         position: absolute;
@@ -7,14 +10,8 @@
         left: 80px;
         top: 155px;
     }
-
-    // Small tablets
-    @include md-min {
-        height: 768px;
-    }
-
-    // Large tablets and small desktops
-    @include lg-min {
-        height: 1024px;
-    }
 }
+}
+}
+
+

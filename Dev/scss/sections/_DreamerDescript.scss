@@ -1,5 +1,10 @@
 #DreamerDescript {
+div{
+    display: grid;
+    gap: 50px;
+text-align: center;
 
+section{
     Image {
         position: absolute;
         width: 117px;
@@ -28,8 +33,9 @@
         color: #000000;
 
     }
-
-    body {
+}
+aside{
+    p{
         position: absolute;
         width: 263px;
         height: 230px;
@@ -45,6 +51,8 @@
         color: #000000;
 
     }
+}
+section{
 
     h1 {
         position: static;
@@ -78,8 +86,9 @@
             line-height: 23px;
 
             color: #000000;
-
         }
     }
 
+}
+}
 }
