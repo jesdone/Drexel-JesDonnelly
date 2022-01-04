@@ -469,6 +469,40 @@ footer > div aside ul li a:visited {
   }
 }
 
+#IntroImage Image {
+  position: absolute;
+  width: 271px;
+  height: 245px;
+  left: 80px;
+  top: 155px;
+}
+
+#PackageIntroImages {
+  text-align: center;
+}
+#PackageIntroImages Image {
+  position: absolute;
+  width: 171px;
+  height: 112px;
+  left: 128px;
+  top: 926px;
+}
+#PackageIntroImages h1 {
+  position: absolute;
+  width: 185px;
+  height: 22px;
+  left: calc(50% - 92.5px - 1.5px);
+  top: calc(50% - 11px - 1134px);
+  font-family: Lato;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+  text-align: center;
+  color: #000000;
+}
+
 #IntroText {
   text-align: center;
 }

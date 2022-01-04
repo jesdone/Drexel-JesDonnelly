@@ -1,10 +1,20 @@
 #IntroImage {
 
-    Image { 
-    position: absolute;
-    width: 271px;
-    height: 245px;
-    left: 80px;
-    top: 155px;
-}
+    Image {
+        position: absolute;
+        width: 271px;
+        height: 245px;
+        left: 80px;
+        top: 155px;
+    }
+
+    // Small tablets
+    @include md-min {
+        height: 768px;
+    }
+
+    // Large tablets and small desktops
+    @include lg-min {
+        height: 1024px;
+    }
 }
