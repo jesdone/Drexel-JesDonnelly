@@ -1,87 +1,46 @@
 #DreamerDescript {
-    div {
+    >div {
         display: grid;
         gap: 16px;
 
+        @include md{
+            grid-template-columns: 50vw auto;
+            grid-template-areas: "dream-l dream-r";
+        }
         section {
+            @include md{
+                grid-area: dream-l;
+            }
             Image {
-                width: 117px;
-                height: 89px;
-                left: 3px;
-                top: 0px;
+                
 
             }
-
+            @include md{
+            grid-area: dream-r;
+            }
             h1 {
-                width: 119px;
-                height: 22px;
-                left: 143px;
-                top: 33.81px;
-
-                font-family: Lato;
-                font-style: italic;
-                font-weight: 800;
-                font-size: 18px;
-                line-height: 22px;
-                /* identical to box height */
-
-                text-align: center;
-
-                color: #000000;
+       
 
             }
         }
 
         aside {
             p {
-                width: 263px;
-                height: 230px;
-                left: 10.48px;
-                top: 121px;
-
-                font-family: Catamaran;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 23px;
-
-                color: #000000;
+          
 
             }
         }
-
+    }
+    div{
         section {
 
             h1 {
-                width: 287px;
-                height: 44px;
-                left: 0px;
-                top: 361px;
-
-                font-family: Lato;
-                font-style: italic;
-                font-weight: 800;
-                font-size: 18px;
-                line-height: 22px;
-                text-align: center;
-
-                color: #000000;
+      
             }
 
             ul {
                 li {
-                    width: 287px;
-                    height: 439px;
-                    left: 0px;
-                    top: 415px;
-
-                    font-family: Catamaran;
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 14px;
-                    line-height: 23px;
-
-                    color: #000000;
+        
                 }
             }
 

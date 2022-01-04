@@ -2,89 +2,42 @@
     div {
         display: grid;
         gap: 16px;
-
+        @include md{
+            grid-template-columns: 50vw auto;
+            grid-template-areas: "realist-l realist-r";
 
         section {
+            @include md{
+                grid-area: realist-l;
             Image {
-                position: absolute;
-                width: 144px;
-                height: 120px;
-                left: 0px;
-                top: 0px;
+                
             }
-
+            @include md{
+                grid-area: realist-r;
+            }
             h1 {
-                position: absolute;
-                width: 103px;
-                height: 22px;
-                left: 160px;
-                top: 60px;
-
-                font-family: Lato;
-                font-style: italic;
-                font-weight: 800;
-                font-size: 18px;
-                line-height: 22px;
-                /* identical to box height */
-
-                text-align: center;
-
-                color: #000000;
+                
             }
         }
 
         aside {
 
             p {
-                position: static;
-                width: 275px;
-                height: 189px;
-                left: 0px;
-                top: 136.79px;
-
-                font-family: Catamaran;
-                font-style: normal;
-                font-weight: 500;
-                font-size: 14px;
-                line-height: 23px;
-
-                color: #000000;
+                
             }
         }
+    }
 
-        ::section {
+div{
+
+        section {
             h1 {
-                position: static;
-                width: 262px;
-                height: 44px;
-                left: 0px;
-                top: 335.79px;
-
-                font-family: Lato;
-                font-style: italic;
-                font-weight: 800;
-                font-size: 18px;
-                line-height: 22px;
-                text-align: center;
-
-                color: #000000;
+                
             }
 
             ul {
                 li {
-                    position: static;
-                    width: 241px;
-                    height: 455px;
-                    left: 0px;
-                    top: 389.79px;
-
-                    font-family: Catamaran;
-                    font-style: normal;
-                    font-weight: 500;
-                    font-size: 14px;
-                    line-height: 23px;
-
-                    color: #000000;
+                   
                 }
             }
         }

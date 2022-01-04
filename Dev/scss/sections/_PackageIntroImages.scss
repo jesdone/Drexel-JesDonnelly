@@ -1,65 +1,32 @@
 #PackageIntroImages {
     div {
         display: grid;
-        gap: 20px;
+        gap: 50px;
 
         section {
+
+            Image {
+             
+            }
+        }
+
+        aside {
 
             h1 {
-                width: 185px;
-                height: 22px;
-                left: calc(50% - 185px/2 - 1.5px);
-                top: calc(50% - 22px/2 - 1134px);
-
-                font-family: Lato;
-                font-style: italic;
-                font-weight: 800;
-                font-size: 18px;
-                line-height: 22px;
-                /* identical to box height */
-
-                text-align: center;
-
-                color: #000000;
+               
             }
         }
 
-        aside {
-
-            Image {
-                width: 171px;
-                height: 112px;
-                left: 128px;
-                top: 926px;
-            }
-        }
 
         section {
-
-            h2 {
-                width: 228px;
-                height: 23px;
-                left: calc(50% - 228px/2);
-                top: calc(50% - 23px/2 - 923.5px);
-
-                font-family: Lato;
-                font-style: italic;
-                font-weight: 800;
-                font-size: 18px;
-                line-height: 22px;
-                text-align: center;
-
-                color: #000000;
+            Image {
+                
             }
-
         }
 
         aside {
-            Image {
-                width: 172px;
-                height: 119px;
-                left: 131px;
-                top: 1130px;
+            h2 {
+                
             }
         }
     }
