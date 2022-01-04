@@ -1,8 +1,8 @@
 #RealistDescript {
     div {
         display: grid;
-        gap: 50px;
-        text-align: center;
+        gap: 16px;
+
 
         section {
             Image {
@@ -52,7 +52,7 @@
             }
         }
 
-        ::selection {
+        ::section {
             h1 {
                 position: static;
                 width: 262px;

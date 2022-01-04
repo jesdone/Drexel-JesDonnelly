@@ -163,17 +163,17 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/Dev\/content\/AddOns.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/Dev\/content\/DreamerDescript.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/Dev\/content\/DreamerDescript.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/Dev\/content\/Footer.kit" : {
       "cB" : 0,
@@ -191,43 +191,51 @@
       "oAP" : "\/Dev\/content\/Header.html",
       "oF" : 0
     },
+    "\/Dev\/content\/IntroImage.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Dev\/content\/IntroImage.html",
+      "oF" : 0
+    },
     "\/Dev\/content\/IntroImage.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/Dev\/content\/IntroImage.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/Dev\/content\/IntroText.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/Dev\/content\/IntroText.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/Dev\/content\/PackageIntroImages.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/Dev\/content\/PackageIntroImages.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/Dev\/content\/RealistDescript.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/Dev\/content\/RealistDescript.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/Dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/Dev\/global\/footer.html",
       "oF" : 0
     },
@@ -243,7 +251,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/Dev\/global\/header.html",
       "oF" : 0
     },
@@ -413,9 +421,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/Dev\/scss\/sections\/_AddOns.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -428,12 +436,24 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/Dev\/scss\/sections\/_DreamerDescript.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
+    },
+    "\/Dev\/scss\/sections\/_IntroImage.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/Dev\/scss\/sections\/_IntroImage-min.css",
+      "oF" : 0,
+      "pg" : 0
     },
     "\/Dev\/scss\/sections\/_IntroImage.scss" : {
       "aP" : 0,
@@ -443,9 +463,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/Dev\/scss\/sections\/_IntroImage.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -458,9 +478,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/Dev\/scss\/sections\/_IntroText.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -473,9 +493,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/Dev\/scss\/sections\/_PackageIntroImages.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -488,9 +508,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/Dev\/scss\/sections\/_RealistDescript.css",
-      "oF" : 0,
+      "oF" : 1,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0

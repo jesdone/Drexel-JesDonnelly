@@ -1,38 +1,48 @@
 #AddOns {
-    h1 {
-        position: static;
-        width: 288px;
-        height: 29px;
-        left: 0px;
-        top: 0px;
-
-        font-family: Lato;
-        font-style: italic;
-        font-weight: 800;
-        font-size: 24px;
-        line-height: 29px;
-        /* identical to box height */
-
+    div {
+        display: grid;
+        gap: 16px;
         text-align: center;
 
-        color: #000000;
-    }
+        Section {
+            h1 {
+                position: static;
+                width: 288px;
+                height: 29px;
+                left: 0px;
+                top: 0px;
 
-    ul {
-        li {
-            position: static;
-            width: 288px;
-            height: 329px;
-            left: 0px;
-            top: 37px;
+                font-family: Lato;
+                font-style: italic;
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 29px;
+                /* identical to box height */
 
-            font-family: Catamaran;
-            font-style: normal;
-            font-weight: 500;
-            font-size: 14px;
-            line-height: 23px;
+                text-align: center;
 
-            color: #000000;
+                color: #000000;
+            }
+        }
+
+        aside {
+            ul {
+                li {
+                    position: static;
+                    width: 288px;
+                    height: 329px;
+                    left: 0px;
+                    top: 37px;
+
+                    font-family: Catamaran;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 14px;
+                    line-height: 23px;
+
+                    color: #000000;
+                }
+            }
         }
     }
 }
