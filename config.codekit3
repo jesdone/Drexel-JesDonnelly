@@ -191,14 +191,6 @@
       "oAP" : "\/Dev\/content\/Header.html",
       "oF" : 0
     },
-    "\/Dev\/content\/IntroImage.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Dev\/content\/IntroImage.html",
-      "oF" : 0
-    },
     "\/Dev\/content\/IntroImage.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -442,18 +434,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/Dev\/scss\/sections\/_IntroImage.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/Dev\/scss\/sections\/_IntroImage-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/Dev\/scss\/sections\/_IntroImage.scss" : {
       "aP" : 0,
