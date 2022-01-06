@@ -19,12 +19,12 @@
 @import "layout/_footer";
 
 // Sections Styles
-@import "sections/_IntroImage";
-@import "sections/_PackageIntroImages";
-@import "sections/_IntroText";
-@import "sections/_RealistDescript";
-@import "sections/_DreamerDescript";
-@import "sections/_AddOns";
+@import "sections/_IntroImage.scss";
+@import "sections/_PackageIntroImages.scss";
+@import "sections/_IntroText.scss";
+@import "sections/_RealistDescript.scss";
+@import "sections/_DreamerDescript.scss";
+@import "sections/_AddOns.scss";
 
 // Sections Images
 @import url(url("..IMG/introImage.jpg"));

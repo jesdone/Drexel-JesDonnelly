@@ -1,13 +1,13 @@
 #IntroImage {
 
-
     div {
 
         section {
 
-            img{
-                size: 20vh;
+            .responsive {
+                width: 100%;
+                height: auto;
+              }
             }
         }
     }
-}

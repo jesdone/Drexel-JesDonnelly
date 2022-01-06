@@ -1,33 +1,50 @@
 #PackageIntroImages {
     div {
         display: grid;
-        gap: 50px;
+        gap: 20px;
 
         section {
-
-            Image {
-             
-            }
-        }
-
-        aside {
 
             h1 {
-               
+                font-weight: 800;
+                font-size: 40px;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
             }
-        }
 
-
-        section {
-            Image {
-                
-            }
         }
 
         aside {
-            h2 {
-                
+            Image {
+                .responsive {
+                    height: 200px;
+                    width: 50%;
+                    text-align: center;
+                }
             }
+        }
+
+        section {
+            h2 {
+                font-weight: 800;
+                font-size: 40px;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+
+        }
+
+        aside {
+            Image {
+                .responsive {
+                    height: auto;
+                    max-width: 50%;
+                    text-align: center;
+                }
+            }
+
         }
     }
 }
