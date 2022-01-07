@@ -1,47 +1,56 @@
 #DreamerDescript {
-    >div {
+    div {
         display: grid;
         gap: 16px;
 
-        @include md{
-            grid-template-columns: 50vw auto;
-            grid-template-areas: "dream-l dream-r";
-        }
         section {
-            @include md{
-                grid-area: dream-l;
-            }
-            Image {
-                
-            }
-            aside {
-                @include md{
-                    grid-area: dream-r;
-                    }
             h1 {
-       
+                font-weight: 800;
+                font-size: 40px;
+                text-align: center;
+                padding-top: 64px;
+                padding-bottom: 16px;
             }
         }
-    }
-}
-        div{
-    section{
+
+        aside {
+            Image {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 75vh;
+                height: 100vh;
+            }
+        }
+
+        section {
             p {
-                
+                font-weight: 400;
+                font-size: 20px;
+                text-align: left;
+                padding-top: 16px;
+                padding-bottom: 16px;
             }
         }
-    }
-   div{
+
         section {
 
-            h1 {
-      
+            h2 {
+                font-weight: 800;
+                font-size: 40px;
+                text-align: center;
             }
         }
-        aside{
+
+        aside {
             ul {
                 li {
-        
+                    font-weight: 400;
+                    font-size: 20px;
+                    text-align: left;
+                    padding-top: 16px;
+                    padding-bottom: 16px;
+
                 }
             }
 

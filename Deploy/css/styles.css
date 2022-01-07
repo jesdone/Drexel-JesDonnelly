@@ -400,6 +400,10 @@ p {
   font-family: "Catamaran", sans-serif;
 }
 
+ul {
+  font-family: "Catamaran", sans-serif;
+}
+
 h1,
 h2,
 h3,
@@ -488,9 +492,12 @@ footer > div aside ul li a:visited {
   }
 }
 
-#IntroImage div section .responsive {
-  width: 100%;
-  height: auto;
+#IntroImage div section img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 175vh;
+  height: 100vh;
 }
 
 #PackageIntroImages div {
@@ -504,10 +511,12 @@ footer > div aside ul li a:visited {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-#PackageIntroImages div aside Image .responsive {
-  height: 200px;
-  width: 50%;
-  text-align: center;
+#PackageIntroImages div aside img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150vh;
+  height: 75vh;
 }
 #PackageIntroImages div section h2 {
   font-weight: 800;
@@ -516,10 +525,12 @@ footer > div aside ul li a:visited {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-#PackageIntroImages div aside Image .responsive {
-  height: auto;
-  max-width: 50%;
-  text-align: center;
+#PackageIntroImages div aside img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150vh;
+  height: 75vh;
 }
 
 #IntroText div {
@@ -541,47 +552,97 @@ footer > div aside ul li a:visited {
   padding-bottom: 20px;
 }
 
-#RealistDescript > div {
+#RealistDescript div {
   display: grid;
   gap: 16px;
 }
-@media (min-width: 768px) {
-  #RealistDescript > div {
-    grid-template-columns: 50vw auto;
-    grid-template-areas: "realist-l realist-r";
-  }
+#RealistDescript div section h1 {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 16px;
 }
-@media (min-width: 768px) {
-  #RealistDescript > div section {
-    grid-area: realist-l;
-  }
+#RealistDescript div aside img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75vh;
+  height: 75vh;
 }
-@media (min-width: 768px) {
-  #RealistDescript > div section aside {
-    grid-area: realist-r;
-  }
+#RealistDescript div section p {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
-#DreamerDescript > div {
+#RealistDescript div aside h2 {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+}
+#RealistDescript div section ul li {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+#DreamerDescript div {
   display: grid;
   gap: 16px;
 }
-@media (min-width: 768px) {
-  #DreamerDescript > div {
-    grid-template-columns: 50vw auto;
-    grid-template-areas: "dream-l dream-r";
-  }
+#DreamerDescript div section h1 {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 16px;
 }
-@media (min-width: 768px) {
-  #DreamerDescript > div section {
-    grid-area: dream-l;
-  }
+#DreamerDescript div aside Image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75vh;
+  height: 100vh;
 }
-@media (min-width: 768px) {
-  #DreamerDescript > div section aside {
-    grid-area: dream-r;
-  }
+#DreamerDescript div section p {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
+#DreamerDescript div section h2 {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+}
+#DreamerDescript div aside ul li {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
 #AddOns div {
   display: grid;
   gap: 16px;
+}
+#AddOns div section h1 {
+  font-weight: 800;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 64px;
+  padding-bottom: 16px;
+}
+#AddOns div aside ul li {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: left;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }

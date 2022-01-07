@@ -1,13 +1,14 @@
 #IntroImage {
 
     div {
-
         section {
-
-            .responsive {
-                width: 100%;
-                height: auto;
-              }
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 175vh;
+                height: 100vh;
             }
-        }
     }
+}
+}

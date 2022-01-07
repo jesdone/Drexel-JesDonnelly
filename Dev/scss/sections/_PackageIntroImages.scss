@@ -16,12 +16,12 @@
         }
 
         aside {
-            Image {
-                .responsive {
-                    height: 200px;
-                    width: 50%;
-                    text-align: center;
-                }
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 150vh;
+                height: 75vh;
             }
         }
 
@@ -37,14 +37,13 @@
         }
 
         aside {
-            Image {
-                .responsive {
-                    height: auto;
-                    max-width: 50%;
-                    text-align: center;
-                }
+            img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 150vh;
+                height: 75vh;
             }
-
         }
     }
 }
