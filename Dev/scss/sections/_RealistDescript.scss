@@ -2,50 +2,61 @@
     >div {
         display: grid;
         gap: 16px;
-        @include md{
-            grid-template-columns: 50vw auto;
-            grid-template-areas: "realist-l realist-r";
-        }
+
         section {
-            @include md{
-                grid-area: realist-l;
-            }
-            Image {
-                
-            }
-            aside{
-                @include md{
-                    grid-area: realist-r;
-                }
             h1 {
-                
+                font-weight: 800;
+                font-size: 40px;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
             }
         }
-        div{
+
+        aside {
+            img {
+                max-width: 50%;
+                height: auto;
+            }
+        }
+
+    }
+
+    div {
 
         section {
 
             p {
-                
+                font-weight: 400;
+                font-size: 20px;
+                text-align: left;
+                padding-top: 20px;
+                padding-bottom: 20px;
             }
         }
-    }
 
-div{
-        section {
+        aside {
             h1 {
-                
+                font-weight: 800;
+                font-size: 40px;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;ß
             }
         }
-            aside{
+
+        section {
 
             ul {
                 li {
-                   
+                    font-weight: 400;
+                    font-size: 20px;
+                    text-align: left;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
                 }
+
             }
         }
-    }
-}
     }
 }
