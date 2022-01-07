@@ -495,8 +495,8 @@ footer > div aside ul li a:visited {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 175vh;
-  height: 100vh;
+  width: 125vh;
+  height: 75vh;
 }
 
 #PackageIntroImages div {
@@ -506,15 +506,15 @@ footer > div aside ul li a:visited {
   font-weight: 800;
   font-size: 40px;
   text-align: center;
-  padding-top: 96px;
+  padding-top: 72px;
   padding-bottom: 8px;
 }
 #PackageIntroImages div aside img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100vh;
-  height: 75vh;
+  width: 85vh;
+  height: 65vh;
 }
 #PackageIntroImages div section h2 {
   font-weight: 800;
@@ -527,8 +527,8 @@ footer > div aside ul li a:visited {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100vh;
-  height: 75vh;
+  width: 85vh;
+  height: 65vh;
 }
 
 #IntroText div {
@@ -547,9 +547,9 @@ footer > div aside ul li a:visited {
   text-align: left;
   line-height: 1.5;
   padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 108px;
-  padding-right: 108px;
+  padding-bottom: 16px;
+  padding-left: 256px;
+  padding-right: 256px;
 }
 
 #RealistDescript div {
@@ -567,7 +567,7 @@ footer > div aside ul li a:visited {
   margin-left: auto;
   margin-right: auto;
   width: 75vh;
-  height: 75vh;
+  height: 55vh;
 }
 #RealistDescript div section p {
   font-weight: 400;
@@ -575,9 +575,9 @@ footer > div aside ul li a:visited {
   text-align: left;
   line-height: 1.5;
   padding-top: 36px;
-  padding-bottom: 16px;
-  padding-left: 108px;
-  padding-right: 108px;
+  padding-bottom: 36px;
+  padding-left: 256px;
+  padding-right: 256px;
 }
 #RealistDescript div aside h2 {
   font-weight: 800;
@@ -590,6 +590,11 @@ footer > div aside ul li a:visited {
   text-align: center;
   padding-top: 16px;
   padding-bottom: 16px;
+  padding-left: 256;
+  padding-right: 256;
+}
+#RealistDescript div aside {
+  text-align: center;
 }
 
 #DreamerDescript div {
@@ -606,7 +611,7 @@ footer > div aside ul li a:visited {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 75vh;
+  width: 65vh;
   height: 75vh;
 }
 #DreamerDescript div section p {
@@ -615,9 +620,9 @@ footer > div aside ul li a:visited {
   text-align: left;
   line-height: 1.5;
   padding-top: 36px;
-  padding-bottom: 16px;
-  padding-left: 108px;
-  padding-right: 108px;
+  padding-bottom: 36px;
+  padding-left: 256px;
+  padding-right: 256px;
 }
 #DreamerDescript div aside h2 {
   font-weight: 800;
@@ -629,7 +634,12 @@ footer > div aside ul li a:visited {
   font-size: 20px;
   text-align: center;
   padding-top: 16px;
-  padding-bottom: 16px;
+  padding-bottom: 36px;
+  padding-left: 256px;
+  padding-right: 256px;
+}
+#DreamerDescript div aside {
+  text-align: center;
 }
 
 #AddOns div {
@@ -648,4 +658,6 @@ footer > div aside ul li a:visited {
   text-align: center;
   padding-top: 16px;
   padding-bottom: 16px;
+  padding-left: 256px;
+  padding-right: 256px;
 }

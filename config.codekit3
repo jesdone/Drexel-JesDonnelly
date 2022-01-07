@@ -9,9 +9,9 @@
   ],
   "creatorBuild" : "34335",
   "files" : {
-    "\/Deploy\/assets\/DreamerImage.jpg" : {
+    "\/Deploy\/assets\/DreamerImage.jpeg" : {
       "ft" : 16384,
-      "iS" : 963504,
+      "iS" : 401254,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Deploy\/assets\/DreamerImage.jpg",
@@ -48,9 +48,9 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Deploy\/assets\/RealistImage.jpeg" : {
+    "\/Deploy\/assets\/RealistImage.jpg" : {
       "ft" : 16384,
-      "iS" : 401254,
+      "iS" : 963504,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Deploy\/assets\/RealistImage.jpg",
@@ -86,9 +86,9 @@
       "oF" : 0,
       "pg" : 0
     },
-    "\/Deploy\/IMG\/DreamerImage.jpg" : {
+    "\/Deploy\/IMG\/DreamerImage.jpeg" : {
       "ft" : 16384,
-      "iS" : 963504,
+      "iS" : 401254,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Deploy\/IMG\/DreamerImage.jpg",
@@ -125,9 +125,9 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/Deploy\/IMG\/RealistImage.jpeg" : {
+    "\/Deploy\/IMG\/RealistImage.jpg" : {
       "ft" : 16384,
-      "iS" : 401254,
+      "iS" : 963504,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Deploy\/IMG\/RealistImage.jpg",
