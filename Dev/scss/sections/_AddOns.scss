@@ -1,7 +1,6 @@
 #AddOns {
     div {
         display: grid;
-        gap: 16px;
 
         section {
             h1 {
@@ -9,7 +8,7 @@
                 font-size: 40px;
                 text-align: center;
                 padding-top: 64px;
-                padding-bottom: 16px;
+                padding-bottom: 8px;
             }
         }
 
@@ -18,7 +17,7 @@
                 li {
                     font-weight: 400;
                     font-size: 20px;
-                    text-align: left;
+                    text-align: center;
                     padding-top: 16px;
                     padding-bottom: 16px;
                 }

@@ -1,7 +1,6 @@
 #DreamerDescript {
     div {
         display: grid;
-        gap: 16px;
 
         section {
             h1 {
@@ -9,17 +8,17 @@
                 font-size: 40px;
                 text-align: center;
                 padding-top: 64px;
-                padding-bottom: 16px;
+                padding-bottom: 8px;
             }
         }
 
         aside {
-            Image {
+            img {
                 display: block;
                 margin-left: auto;
                 margin-right: auto;
                 width: 75vh;
-                height: 100vh;
+                height: 75vh;
             }
         }
 
@@ -28,32 +27,36 @@
                 font-weight: 400;
                 font-size: 20px;
                 text-align: left;
-                padding-top: 16px;
+                line-height: 1.5;
+                padding-top: 36px;
                 padding-bottom: 16px;
-            }
-        }
-
-        section {
-
-            h2 {
-                font-weight: 800;
-                font-size: 40px;
-                text-align: center;
+                padding-left: 108px;
+                padding-right: 108px;
             }
         }
 
         aside {
+            h2 {
+                font-weight: 800;
+                font-size: 32px;
+                text-align: center;
+            }
+        }
+
+        section {
             ul {
+
                 li {
                     font-weight: 400;
                     font-size: 20px;
-                    text-align: left;
+                    text-align: center;
                     padding-top: 16px;
                     padding-bottom: 16px;
 
-                }
-            }
 
+                }
+
+            }
         }
     }
 }

@@ -363,8 +363,7 @@ figure {
 }
 
 ul {
-  margin: 0;
-  padding: 0;
+  list-style-type: none;
 }
 ul li {
   list-style: none;
@@ -502,66 +501,66 @@ footer > div aside ul li a:visited {
 
 #PackageIntroImages div {
   display: grid;
-  gap: 20px;
 }
 #PackageIntroImages div section h1 {
   font-weight: 800;
   font-size: 40px;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 96px;
+  padding-bottom: 8px;
 }
 #PackageIntroImages div aside img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 150vh;
+  width: 100vh;
   height: 75vh;
 }
 #PackageIntroImages div section h2 {
   font-weight: 800;
   font-size: 40px;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 32px;
+  padding-bottom: 8px;
 }
 #PackageIntroImages div aside img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 150vh;
+  width: 100vh;
   height: 75vh;
 }
 
 #IntroText div {
   display: grid;
-  gap: 10px;
 }
 #IntroText div section h1 {
   font-weight: 800;
   font-size: 40px;
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 48px;
+  padding-bottom: 8px;
 }
 #IntroText div aside p {
   font-weight: 400;
   font-size: 20px;
   text-align: left;
+  line-height: 1.5;
   padding-top: 20px;
   padding-bottom: 20px;
+  padding-left: 108px;
+  padding-right: 108px;
 }
 
 #RealistDescript div {
   display: grid;
-  gap: 16px;
 }
 #RealistDescript div section h1 {
   font-weight: 800;
   font-size: 40px;
   text-align: center;
-  padding-top: 64px;
-  padding-bottom: 16px;
+  padding-top: 108px;
+  padding-bottom: 8px;
 }
 #RealistDescript div aside img {
   display: block;
@@ -574,75 +573,79 @@ footer > div aside ul li a:visited {
   font-weight: 400;
   font-size: 20px;
   text-align: left;
-  padding-top: 16px;
+  line-height: 1.5;
+  padding-top: 36px;
   padding-bottom: 16px;
+  padding-left: 108px;
+  padding-right: 108px;
 }
 #RealistDescript div aside h2 {
   font-weight: 800;
-  font-size: 40px;
+  font-size: 32px;
   text-align: center;
 }
 #RealistDescript div section ul li {
   font-weight: 400;
   font-size: 20px;
-  text-align: left;
+  text-align: center;
   padding-top: 16px;
   padding-bottom: 16px;
 }
 
 #DreamerDescript div {
   display: grid;
-  gap: 16px;
 }
 #DreamerDescript div section h1 {
   font-weight: 800;
   font-size: 40px;
   text-align: center;
   padding-top: 64px;
-  padding-bottom: 16px;
+  padding-bottom: 8px;
 }
-#DreamerDescript div aside Image {
+#DreamerDescript div aside img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 75vh;
-  height: 100vh;
+  height: 75vh;
 }
 #DreamerDescript div section p {
   font-weight: 400;
   font-size: 20px;
   text-align: left;
-  padding-top: 16px;
+  line-height: 1.5;
+  padding-top: 36px;
   padding-bottom: 16px;
+  padding-left: 108px;
+  padding-right: 108px;
 }
-#DreamerDescript div section h2 {
+#DreamerDescript div aside h2 {
   font-weight: 800;
-  font-size: 40px;
+  font-size: 32px;
   text-align: center;
 }
-#DreamerDescript div aside ul li {
+#DreamerDescript div section ul li {
   font-weight: 400;
   font-size: 20px;
-  text-align: left;
+  text-align: center;
   padding-top: 16px;
   padding-bottom: 16px;
 }
 
 #AddOns div {
   display: grid;
-  gap: 16px;
 }
 #AddOns div section h1 {
   font-weight: 800;
   font-size: 40px;
   text-align: center;
   padding-top: 64px;
-  padding-bottom: 16px;
+  padding-bottom: 8px;
 }
 #AddOns div aside ul li {
   font-weight: 400;
   font-size: 20px;
-  text-align: left;
+  text-align: center;
   padding-top: 16px;
   padding-bottom: 16px;
 }
