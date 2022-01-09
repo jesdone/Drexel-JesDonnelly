@@ -1,8 +1,9 @@
-@import url(url("..IMG/introImage.jpg"));
+@import url(url("..IMG/IntroImage.jpg"));
 @import url(url("..IMG/DreamerImage.jpg"));
 @import url(url("..IMG/DreamerPackIntroImage.jpeg"));
 @import url(url("..IMG/RealistImage.jpeg"));
 @import url(url("..IMG/RealistPackIntroImage.jpeg"));
+@import url(url("..IMG/LogoImage.jpeg"));
 /* =============
     Mixins
 ============= */
@@ -443,6 +444,99 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  position: fixed;
+  background-color: #fff;
+}
+header > div {
+  display: grid;
+  grid-template-columns: 10% auto;
+  grid-template-areas: "logo burger";
+  padding: 0px 16px 0px;
+}
+@media (min-width: 1024px) {
+  header > div {
+    grid-template-columns: 20% auto;
+    grid-template-areas: "logo nav";
+  }
+}
+header > div #logo img {
+  cursor: pointer;
+  width: 60%;
+  padding: 16px;
+  border-radius: 60%;
+}
+@media (min-width: 1024px) {
+  header > div #logo img {
+    width: 30%;
+  }
+}
+header > div #burger {
+  grid-area: burger;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100%;
+  font-size: 1.875rem;
+}
+@media (min-width: 1024px) {
+  header > div #burger {
+    display: none !important;
+  }
+}
+header > div nav {
+  grid-area: nav;
+  background-color: #000;
+  padding: 16px 16px;
+  margin: 0 -16px;
+  display: none;
+}
+@media (min-width: 1024px) {
+  header > div nav {
+    display: block;
+    background-color: #fff;
+    display: block !important;
+  }
+}
+header > div nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
+}
+@media (min-width: 1024px) {
+  header > div nav ul {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+header > div nav ul li {
+  margin-bottom: 20px;
+}
+@media (min-width: 1024px) {
+  header > div nav ul li {
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+}
+header > div nav ul li button {
+  border: none;
+  background-color: transparent;
+  font-size: 1.25rem;
+  transition: 0.25s;
+  cursor: pointer;
+  color: #000;
+}
+@media (min-width: 1024px) {
+  header > div nav ul li button {
+    color: #000;
+  }
+}
+header > div nav ul li button:hover {
+  color: violet;
+}
+
 /* =============
     Footer
 ============= */

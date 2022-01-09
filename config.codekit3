@@ -48,6 +48,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/Deploy\/assets\/LogoImage.jpg" : {
+      "ft" : 16384,
+      "iS" : 3871054,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/assets\/LogoImage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/Deploy\/assets\/RealistImage.jpg" : {
       "ft" : 16384,
       "iS" : 963504,
@@ -125,6 +138,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/Deploy\/IMG\/LogoImage.jpg" : {
+      "ft" : 16384,
+      "iS" : 3871054,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/IMG\/LogoImage.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/Deploy\/IMG\/RealistImage.jpg" : {
       "ft" : 16384,
       "iS" : 963504,
@@ -175,22 +201,6 @@
       "oAP" : "\/Dev\/content\/DreamerDescript.html",
       "oF" : 1
     },
-    "\/Dev\/content\/Footer.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/Dev\/content\/Footer.html",
-      "oF" : 1
-    },
-    "\/Dev\/content\/Header.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/Dev\/content\/Header.html",
-      "oF" : 1
-    },
     "\/Dev\/content\/IntroImage.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -223,11 +233,19 @@
       "oAP" : "\/Dev\/content\/RealistDescript.html",
       "oF" : 1
     },
+    "\/Dev\/global\/footer.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/Dev\/global\/footer.html",
+      "oF" : 0
+    },
     "\/Dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/Dev\/global\/footer.html",
       "oF" : 0
     },
@@ -243,7 +261,7 @@
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/Dev\/global\/header.html",
       "oF" : 0
     },

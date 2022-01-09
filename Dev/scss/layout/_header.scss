@@ -1,3 +1,94 @@
 /* =============
     Header
 ============= */
+header {
+    position: fixed;
+    background-color: $white;
+
+    >div {
+        display: grid;
+        grid-template-columns: 10% auto;
+        grid-template-areas: "logo burger";
+        padding: 0px 16px 0px;
+
+        @include lg {
+            grid-template-columns: 20% auto;
+            grid-template-areas: "logo nav";
+        }
+
+        #logo {
+            img {
+                cursor: pointer;
+                width: 60%;
+                padding: 16px;
+                border-radius: 60%;
+
+                @include lg {
+                    width: 30%;
+                }
+            }
+        }
+
+        #burger {
+            grid-area: burger;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            height: 100%;
+            font-size: rem-calc(30);
+
+            @include lg {
+                display: none !important;
+            }
+        }
+
+        nav {
+            grid-area: nav;
+            background-color: $black;
+            padding: 16px 16px;
+            margin: 0 -16px;
+            display: none;
+
+            @include lg {
+                display: block;
+                background-color: $white;
+                display: block !important;
+            }
+
+            ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: flex-end;
+                height: 100%;
+                @include lg{
+                    flex-direction: row;
+                    align-items: center;
+                }
+                li{
+                    margin-bottom: 20px;
+
+                    @include lg{
+                        margin-left: 20px;
+                        margin-bottom: 0;
+                    }
+                    button{
+                        border: none;
+                        background-color: transparent;
+                        font-size: rem-calc(20);
+                        transition: 0.25s;
+                        cursor: pointer;
+                        color: $black;
+
+                        @include lg{
+                            color: $black;
+                        }
+                        &:hover{
+                            color: violet;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
