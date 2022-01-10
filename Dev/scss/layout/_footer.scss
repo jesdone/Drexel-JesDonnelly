@@ -1,90 +1,62 @@
-/* =============
-    Footer
-============= */
-// footer{
-//     background-color: $orange;
-//     display: grid;
-//     grid-template-columns: 16px auto 16px;
-//     grid-template-areas: ". footer .";
-//     padding: 16px 0;
-
-//     >div{
-//         grid-area: footer;
-//         text-align: center;
-
-//         position: relative;
-
-//         ul{
-//             position: absolute;
-//             right: 0px;
-//             bottom: 0px;
-//             display: flex;
-
-//             li{
-//                 margin-left: 16px;
-
-//                 a:link, a:visited{
-//                     color: $white;
-//                     transition: 0.25s;
-
-//                     &:hover, &:active{
-//                         color: $black;
-//                     }
-
-//                     @include xl{
-//                         font-size: rem-calc(30);
-//                     }
-//                 }
-//             }
-//         }
-//     }
-// }
-
-
 footer {
-    background-color: $orange;
-    display: grid;
-    grid-template-columns: 16px auto 16px;
-    grid-template-areas: ". footer .";
-    padding: 16px 0;
+    background-color: $white;
 
-    >div {
-        grid-area: footer;
+    div {
+        display: grid;
+        grid-template-columns: 5% auto;
+        grid-template-areas: "logo nav";
+        padding: 0px 16px 0px;
 
-        section {
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        #logo {
+            img {
+                cursor: pointer;
+                width: 20%;
+                padding: 16px;
+                border-radius: 60%;
+
+                @include lg {
+                    width: 30%;
+                }
+            }
         }
 
-        aside {
-            margin-top: -10px;
+        #social ul {
             display: flex;
+            flex-direction: column;
             justify-content: flex-end;
+            align-items: flex-end;
+            height: 100%;
 
-            ul { 
-                right: 0px;
-                bottom: 0px;
-                display: flex;
+            @include lg {
+                flex-direction: row;
+                align-items: center;
+            }
 
-                li {
-                    margin-left: 16px;
+            li {
+                margin-bottom: 20px;
 
-                    a:link,
-                    a:visited {
-                        color: $white;
-                        transition: 0.25s;
+                @include lg {
+                    margin-left: 20px;
+                    margin-bottom: 0;
+                }
 
-                        &:hover,
-                        &:active {
-                            color: $black;
-                        }
+                button {
+                    border: none;
+                    background-color: transparent;
+                    font-size: rem-calc(20);
+                    transition: 0.25s;
+                    cursor: pointer;
+                    color: $black;
 
-                        @include xl {
-                            font-size: rem-calc(30);
-                        }
+                    @include lg {
+                        color: $black;
+                    }
+
+                    &:hover {
+                        color: violet;
                     }
                 }
+
             }
         }
     }

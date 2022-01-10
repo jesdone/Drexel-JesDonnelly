@@ -61,6 +61,20 @@
         }
         aside{
             text-align: center;
+
+            button{
+                border: none;
+                background-color: #821D30;
+                font-size: rem-calc(20);
+                transition: 0.25s;
+                cursor: pointer;
+                color: $white;
+                border-radius: 50px;
+
+                &:hover{
+                    color: violet;
+                }
+            }
         }
     }
 }

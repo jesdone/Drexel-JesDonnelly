@@ -185,6 +185,17 @@
       "oAP" : "\/Deploy\/index.html",
       "oF" : 0
     },
+    "\/Deploy\/scripts-min.js" : {
+      "bF" : 0,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/scripts-min-min.js",
+      "oF" : 0,
+      "sC" : 3,
+      "tS" : 0
+    },
     "\/Dev\/content\/AddOns.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -233,14 +244,6 @@
       "oAP" : "\/Dev\/content\/RealistDescript.html",
       "oF" : 1
     },
-    "\/Dev\/global\/footer.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/Dev\/global\/footer.html",
-      "oF" : 0
-    },
     "\/Dev\/global\/footer.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -272,6 +275,17 @@
       "oA" : 0,
       "oAP" : "\/Deploy\/index.html",
       "oF" : 3
+    },
+    "\/Dev\/js\/scripts.js" : {
+      "bF" : 4,
+      "ft" : 64,
+      "ma" : 0,
+      "mi" : 1,
+      "oA" : 0,
+      "oAP" : "\/Deploy\/scripts-min.js",
+      "oF" : 2,
+      "sC" : 3,
+      "tS" : 0
     },
     "\/Dev\/scss\/base\/_base.scss" : {
       "aP" : 0,

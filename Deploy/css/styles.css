@@ -450,7 +450,7 @@ header {
 }
 header > div {
   display: grid;
-  grid-template-columns: 10% auto;
+  grid-template-columns: 5% auto;
   grid-template-areas: "logo burger";
   padding: 0px 16px 0px;
 }
@@ -462,9 +462,9 @@ header > div {
 }
 header > div #logo img {
   cursor: pointer;
-  width: 60%;
+  width: 20%;
   padding: 16px;
-  border-radius: 60%;
+  border-radius: 50%;
 }
 @media (min-width: 1024px) {
   header > div #logo img {
@@ -537,52 +537,63 @@ header > div nav ul li button:hover {
   color: violet;
 }
 
-/* =============
-    Footer
-============= */
 footer {
-  background-color: #D87337;
+  background-color: #fff;
+}
+footer div {
   display: grid;
-  grid-template-columns: 16px auto 16px;
-  grid-template-areas: ". footer .";
-  padding: 16px 0;
+  grid-template-columns: 5% auto;
+  grid-template-areas: "logo nav";
+  padding: 0px 16px 0px;
 }
-footer > div {
-  grid-area: footer;
+footer div #logo img {
+  cursor: pointer;
+  width: 20%;
+  padding: 16px;
+  border-radius: 60%;
 }
-footer > div section {
+@media (min-width: 1024px) {
+  footer div #logo img {
+    width: 30%;
+  }
+}
+footer div #social ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
-}
-footer > div aside {
-  margin-top: -10px;
-  display: flex;
+  flex-direction: column;
   justify-content: flex-end;
+  align-items: flex-end;
+  height: 100%;
 }
-footer > div aside ul {
-  right: 0px;
-  bottom: 0px;
-  display: flex;
+@media (min-width: 1024px) {
+  footer div #social ul {
+    flex-direction: row;
+    align-items: center;
+  }
 }
-footer > div aside ul li {
-  margin-left: 16px;
+footer div #social ul li {
+  margin-bottom: 20px;
 }
-footer > div aside ul li a:link,
-footer > div aside ul li a:visited {
-  color: #fff;
+@media (min-width: 1024px) {
+  footer div #social ul li {
+    margin-left: 20px;
+    margin-bottom: 0;
+  }
+}
+footer div #social ul li button {
+  border: none;
+  background-color: transparent;
+  font-size: 1.25rem;
   transition: 0.25s;
-}
-footer > div aside ul li a:link:hover, footer > div aside ul li a:link:active,
-footer > div aside ul li a:visited:hover,
-footer > div aside ul li a:visited:active {
+  cursor: pointer;
   color: #000;
 }
-@media (min-width: 1440px) {
-  footer > div aside ul li a:link,
-footer > div aside ul li a:visited {
-    font-size: 1.875rem;
+@media (min-width: 1024px) {
+  footer div #social ul li button {
+    color: #000;
   }
+}
+footer div #social ul li button:hover {
+  color: violet;
 }
 
 #IntroImage div section img {
@@ -690,6 +701,18 @@ footer > div aside ul li a:visited {
 #RealistDescript div aside {
   text-align: center;
 }
+#RealistDescript div aside button {
+  border: none;
+  background-color: #821D30;
+  font-size: 1.25rem;
+  transition: 0.25s;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 50px;
+}
+#RealistDescript div aside button:hover {
+  color: violet;
+}
 
 #DreamerDescript div {
   display: grid;
@@ -734,6 +757,18 @@ footer > div aside ul li a:visited {
 }
 #DreamerDescript div aside {
   text-align: center;
+}
+#DreamerDescript div aside button {
+  border: none;
+  background-color: #821D30;
+  font-size: 1.25rem;
+  transition: 0.25s;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 50px;
+}
+#DreamerDescript div aside button:hover {
+  color: violet;
 }
 
 #AddOns div {
